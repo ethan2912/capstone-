@@ -100,7 +100,6 @@ oauthlib==3.2.2
 opencv-python==3.4.13.47
 opt-einsum==3.3.0
 packaging==21.3
-pafy @ git+https://github.com/TahaAnwar/pafy.git@2f3c473b3df7961721d07e1504675313afd1d2cb
 pandas==1.1.5
 pandocfilters==1.5.0
 parso==0.7.1
