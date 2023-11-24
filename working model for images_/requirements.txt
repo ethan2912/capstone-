@@ -5,4 +5,4 @@ opencv-python-headless==4.8.1.78
 openpyxl==3.0.10
 pathlib 
 pathspec
-streamlit==1.28.2
+streamlit
