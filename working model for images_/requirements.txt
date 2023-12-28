@@ -7,3 +7,4 @@ pathlib
 pathspec
 streamlit
 ydata-profiling
+scikit-image
