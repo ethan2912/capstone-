@@ -139,7 +139,7 @@ class image_dehazer():
             beta = beta * beta_rate
 
         if (self.showHazeTransmissionMap):
-            cv2.imshow("Haze Transmission Map", self._Transmission)
+            #cv2.imshow("Haze Transmission Map", self._Transmission)
             cv2.waitKey(1)
 
     def __removeHaze(self, HazeImg):
@@ -284,7 +284,7 @@ class image_dehazer():
     def remove_haze(self, HazeImg):
         self.__AirlightEstimation(HazeImg)
         self.__BoundCon(HazeImg)
-        self.__CalTransmission(HazeImg)
+        #self.__CalTransmission(HazeImg)
         haze_corrected_img = self.__removeHaze(HazeImg)
         HazeTransmissionMap = self._Transmission
         return (haze_corrected_img, HazeTransmissionMap)
