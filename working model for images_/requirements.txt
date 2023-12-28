@@ -5,5 +5,5 @@ opencv-python-headless==4.8.1.78
 openpyxl==3.0.10
 pathlib
 pathspec
-streamlit==1.29.0
-ydata-profiling==4.6.3
+streamlit
+ydata-profiling
