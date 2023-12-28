@@ -1,9 +1,9 @@
 numpy
-numpydoc==1.6.0
+numpydoc==
 opencv-python==4.7.0.72
 opencv-python-headless==4.8.1.78
 openpyxl==3.0.10
-pathlib==1.0.1
-pathspec==0.12.1
+pathlib
+pathspec
 streamlit==1.29.0
 ydata-profiling==4.6.3
